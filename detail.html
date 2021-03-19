@@ -11,14 +11,74 @@
 
 <body>
     <div class="wrapper">
-    <div class="flex-container">
-        <div>Nutrition Box</div>
-        <div id = "chart-container">
+    <div class="flex-container flex-center">
+        <div class="flex-container" id="nutritionBox">
+            <div class="flex-container flex-vertical">
+                <div class="title">
+                    Nutrition<br>Facts
+                </div>
+                <div class="sub text-small">
+                    Serv Size Meal<br>Servings 1
+                </div>
+                <div class="text-small">
+                    Calories 250
+                </div>
+            </div>
+            <div class="flex-container flex-vertical">
+                <div class="text-xsmall line-top">
+                    Amount/Serving % DV*
+                </div>
+                <div>
+                    Total Fat %
+                </div>
+                <div class="sub">
+                    Sat Fat %
+                </div>
+                <div class="sub">
+                    Trans Fat
+                </div>
+                <div>
+                    Cholest %
+                </div>
+                <div>
+                    Sodium %
+                </div>
+                <div class="sub text-xsmall line-bottom">
+                    * Percent Daily Values (DV) are<br>based on a 2,000 calorie diet.
+                </div>
+            </div>
+            <div class="flex-container flex-vertical">
+                <div class="text-xsmall line-top">
+                    Amount/Serving % DV*
+                </div>
+                <div>
+                    Total Carb %
+                </div>
+                <div class="sub">
+                    Fiber %
+                </div>
+                <div class="sub">
+                    Sugar
+                </div>
+                <div>
+                    Protein %
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div class="sub text-xsmall line-bottom">
+                    • Vitamin D % • Calcium % • Iron %<br>• Potassium 235mg 6% • Thiamin 15% • Riboflavin 8%
+                </div>
+            </div>
+        </div>
+        <div>
             <canvas id="myChart"> </canvas>
         </div>
     </div>
+
+
     <h2 class="text-center"> Meal Breakdown </h2>
-    <div class="flex-container button-container">
+    <div class="flex-container flex-center button-container">
         <div><button type="button">Update</button></div>
         <div><button type="button">Delete</button></div>
     </div>
