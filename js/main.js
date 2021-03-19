@@ -1,14 +1,16 @@
-/**
- * Your JS code here
- */
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    datasets: [{
+        data: [10, 20, 30]
+    }],
 
-/**
- * Sample code
- */
-document.addEventListener('DOMContentLoaded', function() {
-  var ulElement = document.getElementById('links');
-  var liElement = document.createElement('li');
-  liElement.appendChild(document.createTextNode('created by main.js'));
-
-  ulElement.appendChild(liElement);
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: [
+        'Red',
+        'Yellow',
+        'Blue'
+    ]
+},
 });

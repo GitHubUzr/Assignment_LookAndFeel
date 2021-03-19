@@ -2,30 +2,40 @@
 <html lang="en">
 
 <head>
-<title>Detail Page</title>
+    <meta charset="UTF-8">
+    <title>Detail Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
 </head>
 
 <body>
-<button type="button">Update</button> <button type="button">Delete</button>
+    <div class="chart-container">
+        <canvas id="myChart"> </canvas>
+    </div>
 
-<table>
-<tr> <!-- header row -->
-    <th>Food</th>
-    <th>Calories</th>
-    <th>Fat (g)</th>
-</tr>
-<tr> <!-- following rows -->
-    <td>Rice</td>
-    <td>200</td>
-    <td>100</td>
-</tr>
-<tr>
-    <td>Chicken</td>
-    <td>300</td>
-    <td>15</td>
-</tr>
-</table>
+    <button type="button">Update</button>
+    <button type="button">Delete</button>
 
+    <table>
+    <tr> <!-- header row -->
+        <th>Food</th>
+        <th>Calories</th>
+        <th>Fat (g)</th>
+    </tr>
+    <tr> <!-- following rows -->
+        <td>Rice</td>
+        <td>200</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Chicken</td>
+        <td>300</td>
+        <td>15</td>
+    </tr>
+    </table>
+
+    <!--JS link-->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
