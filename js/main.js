@@ -18,5 +18,5 @@ var myChart = new Chart(ctx, {
         'Protein'
     ]
   },
-  options: {},
+  options: {responsive:false},
 });

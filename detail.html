@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Page</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
@@ -10,13 +11,18 @@
 
 <body>
     <div class="wrapper">
-    <div class = "chart-container">
-    <canvas id="myChart"> </canvas>
+    <div class="flex-container">
+        <div>Nutrition Box</div>
+        <div id = "chart-container">
+            <canvas id="myChart"> </canvas>
+        </div>
     </div>
-    <button type="button">Update</button>
-    <button type="button">Delete</button>
-
-    <table>
+    <h2 class="text-center"> Meal Breakdown </h2>
+    <div class="flex-container button-container">
+        <div><button type="button">Update</button></div>
+        <div><button type="button">Delete</button></div>
+    </div>
+    <table class="table-center">
     <tr> <!-- header row -->
         <th>Food</th>
         <th>Calories</th>
