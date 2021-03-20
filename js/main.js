@@ -1,6 +1,6 @@
 var data = {
   datasets: [{
-      data: [7, 32, 61],
+      data: [3.5,17,32],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(255, 206, 86, 0.2)',
