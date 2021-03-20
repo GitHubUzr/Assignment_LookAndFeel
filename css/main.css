@@ -1,3 +1,8 @@
+.tight {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .table-center {
   margin-left: auto;
   margin-right: auto;
@@ -6,7 +11,7 @@
 .text-center {
   text-align: center;
   margin-bottom: 0;
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
 }
 
 .flex-container {
@@ -16,6 +21,10 @@
 
 .flex-center {
   justify-content: center;
+}
+
+.flex-space {
+  justify-content: space-between;
 }
 
 .flex-vertical {
@@ -30,52 +39,60 @@
   margin-bottom: 0.83em;
 }
 
-/* make everything in the nutriotn box div bold, make exceptions sub */
-.bold {
-  font-weight:
+.whitespace {
+  border-right: 3px solid white;
+}
+
+.line {
+  border-top: 1px solid black;
 }
 
 .line-top {
-  border-bottom: 6px solid #000000;
+  border-bottom: 6px solid black;
+  padding-top: 4px;
 }
 
 .line-bottom {
-  border-top: 10px solid #000000;
+  border-top: 10px solid black;
+  padding-bottom: 4px;
 }
 
-.sub {
-  font-weight: normal;
+.bold {
+  font-weight: bold;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.indent {
+  padding-left: 10%;
 }
 
 .text-xsmall {
   font-size:x-small;
 }
 
-.text-small{
-  font-size: small;
+.title {
+  font-size:x-large;
+  line-height: 1;
+}
+
+.pad {
+  padding: 4px;
 }
 
 #myChart {
   width: 100px;
   height: 100px;
-  border:1px solid #000000;
+  /*border:1px solid black;*/
 }
 
 #nutritionBox {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;;
+  font-size: small;
 }
 
 #nutritionBox > div {
-  /*border:2px solid #000000;*/
-}
-
-#nutritionBox > div > div {
-  /*border:1px solid orange;*/
-  padding: 4px;
-}
-
-#nutritionBox > div > div.title {
-  font-size:large;
-  line-height: 1;
+  /*border:2px solid pink;*/
 }
