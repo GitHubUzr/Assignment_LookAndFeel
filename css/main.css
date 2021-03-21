@@ -39,10 +39,6 @@ body {
   flex-direction: column;
 }
 
-.flex-container > div {
-  /*border: 1px solid red;*/
-}
-
 .button-container {
   margin-bottom: 0.83em;
 }
@@ -99,10 +95,6 @@ body {
 #nutritionBox {
   font-family:Arial, Helvetica, sans-serif;;
   font-size: small;
-}
-
-#nav-bar {
-
 }
 
 #nav-main {
