@@ -234,3 +234,7 @@ h1 {
 #about .button:hover {
   background-color: #555;
 }
+
+.data-table {
+  max-width: 800px;
+}
