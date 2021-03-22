@@ -1,33 +1,73 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
 <body>
 
-<header id="navbar">
-    <nav class="body-content center">
-        <ul id="nav_links">
-            <li class="nav-head"><a href="index.html">MealGuide</a></li>
-            <li class="nav-follow"><a href="index.html">Home</a></li>
-            <li class="nav-follow"><a href="master.html">Master</a></li>
-            <li class="nav-follow"><a href="detail.html">Detail</a></li>
-            <li class="nav-follow"><a href="about.html">About</a></li>
-        </ul>
-    </nav>
-</header>
+<h2>Master Table</h2>
 
-<div class="body-content center">
-<p>Master table goes here.</p>
- 
-</div>
+<table>
+  <tr>
+    <th>MealID</th>
+    <th>Meal Name</th>
+    <th>Calories</th>
+  </tr>
+  <tr>
+    <td>001</td>
+    <td>Lean Machine</td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>002</td>
+    <td>Runner's Challenge</td>
+    <td>650</td>
+  </tr>
+  <tr>
+    <td>003</td>
+    <td>Mexican Wrap</td>
+    <td>380</td>
+  </tr>
+  <tr>
+    <td>004</td>
+    <td>Italiano</td>
+    <td>490</td>
+  </tr>
+  <tr>
+    <td>005</td>
+    <td>Chinese Hot</td>
+    <td>560</td>
+  </tr>
+  <tr>
+    <td>006</td>
+    <td>Indian Swad</td>
+    <td>800</td>
+  </tr>
+</table>
 
+<style>
+body {
+  background-image: url('./img/food 5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
 </body>
 </html>
