@@ -250,3 +250,8 @@ h1 {
 .data-table {
   max-width: 800px;
 }
+
+.meal {
+  border-collapse: collapse;
+  width: 100%;
+}
