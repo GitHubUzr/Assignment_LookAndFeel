@@ -105,7 +105,9 @@ body {
   max-width:1170px;
 }
 
-
+#erd {
+  max-width: 1170px;
+}
 
 
 /* testing */
@@ -198,7 +200,7 @@ h1 {
   margin: 8px;
 }
 
-.about-section {
+#about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;

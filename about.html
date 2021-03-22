@@ -1,91 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
 
-<div class="about-section">
+<body>
+<header id="navbar">
+    <nav class="body-content center">
+        <ul id="nav_links">
+            <li class="nav-head"><a href="index.html">MealGuide</a></li>
+            <li class="nav-follow"><a href="index.html">Home</a></li>
+            <li class="nav-follow"><a href="master.html">Master</a></li>
+            <li class="nav-follow"><a href="detail.html">Detail</a></li>
+            <li class="nav-follow"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="body-content center">
+<div id="about-section">
   <h1>About Us Page</h1>
   <p>Some text about who we are and what we do.</p>
   
 </div>
-
-<h2 style="text-align:center">Our Team</h2>
+<div id="about">
+<h2 class="text-center">Our Team</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="./img/imageSunCard.jpg" alt="Jane" style="width:100%">
+      <img src="./img/imageSunCard.jpg" alt="Photo" style="width:100%">
       <div class="container">
         <h2>Shreya Uday</h2>
         <p class="title">Graduate Student</p>
@@ -100,9 +49,9 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="./img/49741950.jpg" alt="Mike" style="width:100%">
+      <img src="./img/49741950.jpg" alt="Photo" style="width:100%">
       <div class="container">
-        <h2>Tatyana Villegas</h2>
+        <h2>Tatyanna Villegas</h2>
         <p class="title">Graduate Student</p>
         <p>USF student studying for a Masters in BAIS.
                    
@@ -115,10 +64,10 @@ html {
   
   <div class="column">
     <div class="card">
-      <img src="./img/khubaib.jpeg" alt="John" style="width:100%">
+      <img src="./img/khubaib.jpeg" alt="Photo" style="width:100%">
       <div class="container">
         <h2>Khubaib Farooq</h2>
-        <p class="title">Graduate Studen</p>
+        <p class="title">Graduate Student</p>
         <p>Khubaib is graduating with a MS in Business Analytics and Information Systems. 
          
                    His future plans include working as a Business Consultant and lift his home country of 
@@ -130,6 +79,8 @@ html {
     </div>
   </div>
 </div>
-
+</div>
+<img id="erd" src="ER Diagram.png"> 
+</div>
 </body>
 </html>
